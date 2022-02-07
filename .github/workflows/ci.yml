@@ -20,4 +20,4 @@ jobs:
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
         branch: main # The branch the action should deploy to.
-        folder: ./build
+        folder: .github

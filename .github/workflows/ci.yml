@@ -11,13 +11,23 @@ jobs:
       uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
       with:
         persist-credentials: false
-    - name: Install and Build
+    # from: https://github.com/actions/setup-node  
+    - name: Setup Node.js 12.x 
+      uses: actions/setup-node@master
+      with:
+        node-version: "12.x"
+    
+    - name: Setup Hexo Dependencies
       run: |
+        npm install hexo-cli -g
         npm install
-        npm run-script build
+    - name: Deploy Hexo 
+      run: |
+        hexo clean
+        hexo generate
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4.2.3
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
         branch: gh-pages # The branch the action should deploy to.
-        folder: .
+        folder: public

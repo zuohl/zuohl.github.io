@@ -25,3 +25,9 @@ jobs:
       run: |
         hexo clean
         hexo generate
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4.2.3
+      with:
+        token: ${{ secrets.ACCESS_TOKEN }}
+        branch: gh-pages # The branch the action should deploy to.
+        folder: .

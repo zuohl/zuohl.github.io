@@ -16,11 +16,19 @@ jobs:
       uses: actions/setup-node@master
       with:
         node-version: "12.x"
-    
-    - name: Setup Hexo Dependencies
+    - name:  Setup Hexo
+      run:
+          npm install hexo-cli -g        
+    - name: Cache Hexo
+      uses: actions/cache@v1
+      id: cache
+      with:
+        path: node_modules
+        key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+    - name: Setup Dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        npm install hexo-cli -g
-        npm install
+        npm install --save
     - name: Deploy Hexo 
       run: |
         hexo clean

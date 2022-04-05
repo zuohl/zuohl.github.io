@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>add-doc</title>
-    <url>/2022/02/06/add-doc-1/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>如何新增文章</title>
     <url>/2022/02/08/add-doc/</url>
     <content><![CDATA[<p>hexo写文章可以<a href="https://blog.hostalk.net/posts/hexo_blog.html">参考</a><br>你好啊.你好啊</p>
@@ -19,7 +14,7 @@
   </entry>
   <entry>
     <title>hexo新增文章</title>
-    <url>/2022/04/02/hello-world/</url>
+    <url>/2022/04/05/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -34,6 +29,25 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>使用jsDeliver和GitHub白嫖CDN</title>
+    <url>/2022/04/01/jsDeliver-CDN/</url>
+    <content><![CDATA[<p>使用jsDeliver和GitHub白嫖CDN</p>
+<ol>
+<li>创建一个github公有仓库</li>
+<li>上传文件到仓库</li>
+<li>基于github仓库发布releases版本</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zuohl/cdn@1.1/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-03-28%20215632.png"></p>
+<ol>
+<li>通过cdn.jsdelivr.net访问.格式如下</li>
+</ol>
+<p><a href="https://cdn.jsdelivr.net/gh/github%E8%B4%A6%E5%8F%B7%E5%90%8D/%E4%BB%93%E5%BA%93%E5%90%8D@%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/%E6%96%87%E4%BB%B6%E5%90%8D.xxx">https://cdn.jsdelivr.net/gh/github账号名/仓库名@发布版本/文件名.xxx</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
   </entry>
   <entry>
     <title>pagepagename</title>

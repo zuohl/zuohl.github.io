@@ -1,7 +1,7 @@
 ---
 title: 使用jsDeliver和GitHub白嫖CDN
 date: 2022-04-01 22:52:26
-tags:教程
+categories: 教程
 ---
 
 

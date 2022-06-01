@@ -39,9 +39,9 @@
 <li>上传文件到仓库</li>
 <li>基于github仓库发布releases版本</li>
 </ol>
-<p><img src="https://cdn.jsdelivr.net/gh/zuohl/cdn@1.1/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-03-28%20215632.png"></p>
+<p><img src="/%5Bhttps:/cdn.staticaly.com/gh/zuohl/cdn@1.1/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-03-28%20215632.png"></p>
 <ol>
-<li><p>通过cdn.jsdelivr.net访问.格式如下<br><a href="https://cdn.jsdelivr.net/gh/github%E8%B4%A6%E5%8F%B7%E5%90%8D/%E4%BB%93%E5%BA%93%E5%90%8D@%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/%E6%96%87%E4%BB%B6%E5%90%8D.xxx">https://cdn.jsdelivr.net/gh/github账号名/仓库名@发布版本/文件名.xxx</a></p>
+<li><p>通过cdn.jsdelivr.net访问.格式如下<br><a href="https://cdn.staticaly.com/gh/github%E8%B4%A6%E5%8F%B7%E5%90%8D/%E4%BB%93%E5%BA%93%E5%90%8D@%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/%E6%96%87%E4%BB%B6%E5%90%8D.xxx">https://cdn.staticaly.com/gh/github账号名/仓库名@发布版本/文件名.xxx</a></p>
 </li>
 <li><p>如果你不想发布,直接使用master分支其实也可以…</p>
 </li>

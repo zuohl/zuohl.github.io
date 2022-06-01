@@ -12,7 +12,7 @@ categories: 教程
 1. 创建一个github公有仓库
 2. 上传文件到仓库
 3. 基于github仓库发布releases版本
-[示例图片](https://cdn.staticaly.com/gh/zuohl/cdn@1.1/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-03-28%20215632.png)
+![示例图片](https://cdn.staticaly.com/gh/zuohl/cdn@1.1/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-03-28%20215632.png)
 
 
 

@@ -593,7 +593,7 @@ disqusjs:
   # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.
   # For example:
   # api: https://disqus.skk.moe/disqus/
-  api:
+  api: https://disqus.skk.moe/disqus/
   apikey: K8rVmBTAHLskjW9E6vbjTp0tDitioQwggl9EBtnzYPGOqNpC4wpjyqNBkyXi1EiX
   shortname: zuohl
 

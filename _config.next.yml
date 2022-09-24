@@ -875,8 +875,9 @@ vendors:
   # Available values: local | jsdelivr | unpkg | cdnjs
   # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
   plugins: custom
-  custom_cdn_url: https://cdnjs.sourcegcdn.com/ajax/libs/${cdnjs_name}/${version}/${cdnjs_file}
-
+  # custom_cdn_url: https://cdnjs.sourcegcdn.com/ajax/libs/${cdnjs_name}/${version}/${cdnjs_file}
+  custom_cdn_url: https://cdn.bootcdn.net/ajax/libs/${cdnjs_name}/${version}/${cdnjs_file}
+  
 # Assets
 # Accelerate delivery of static files using a CDN
 css: css
